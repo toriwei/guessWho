@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+}
+
+#instructions {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.modal-body {
+  text-align: left;
+}
+
+.card-columns {
+  column-count: 8;
+}
+
+.card-img-top {
+  object-fit: cover;
+}
+
+#questionBox {
+  height: 40px;
+  width: 300px;
+}
+
+#imageDisplay {
+  margin: 75px;
+}
+
+.card {
+  height: 250px;
+}
+
+.form-inline{
+  display: inline-block;
+}
+
