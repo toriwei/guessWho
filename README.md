@@ -1,2 +1,5 @@
-# guessWho
-Guess Who Game made during Google CSSI 2020
+# Guess Who
+
+A Guess Who Game.
+
+Written during CSSI 2020.

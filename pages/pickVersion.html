@@ -1,0 +1,40 @@
+<!--html page that allows the user to pick which version they want to play-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Choose Your Version</title>
+  </head>
+  <body>
+    <h1>Choose Your Version</h1>
+
+    <div class="buttonContainer">
+      <button class="versionButton">
+        <a href="/mainGrid">
+          <h2>Public Figures</h2>
+          <p>
+            Play Guess Who with tiles of well-know celebrities.
+          </p>
+        </a>
+      </button>
+
+      <button class="versionButton">
+        <a href="/inputPictures">
+          <h2>CSSI</h2>
+          <p>
+            Play Guess Who with tiles of the Google CSSI participants, TAs, and
+            faculty.
+          </p>
+        </a>
+      </button>
+
+      <button id="versionHomeButton"><a href="/">Go to Homepage</a></button>
+    </div>
+  </body>
+</html>
